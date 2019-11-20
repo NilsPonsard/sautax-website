@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: 1s;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+}
+
+.gauche {
+    float: left;
+}
+.droite {
+    float:right;
+}
+.ah {
+    margin:0;
+    width: 0;
+    height: 0;
+    border: 0;
+}
+.img-acceuil {
+    top:50%;
+    margin-left: 4px ;
+    margin-right: 3px ;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.nav-lien {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 2px;
+}
+.nav-lien:hover {
+    background-color: whitesmoke;
+    color: #111;
+}
+
+#contenu {
+    transition: 1s;
+
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1 {
+    text-align: center;
+}
+
+.active {
+    background-color: #DDD;
+    color: #111;
+}
+
+.bouton{
+    text-decoration: none;
+    
+    padding: 1em;
+    margin: 1em;
+    margin-left: 0;
+}
+
+.liste-projets {
+    list-style-type:"";
+    display: block;
+}
+.download {
+    transition: 0.5s;
+}
+.demo {
+    transition: 0.5s;
+}
+
+
+.github {
+    background:transparent;
+    transition: 0.5s;
+    margin-right: 0;
+}
+.github:hover {
+    color: whitesmoke;
+    background-color: #000;
+}
+.p-projet {
+    display: flex;
+    flex-flow: row ;
+    width: 100%;
+
+}
+.p-projet p{
+    margin: 0;
+    padding: 0;
+}
+p {
+    display: block;
+}
+h2 {
+    margin-bottom: 0;
+}
+.p-nom{
+    flex: 2;
+    margin: 0;
+}

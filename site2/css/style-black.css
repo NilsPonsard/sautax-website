@@ -1,0 +1,36 @@
+body{
+    background-color: #111111;
+}
+#content {
+    color: white;
+    background-color: #111111 ;
+}
+.bouton {
+    color: whitesmoke;
+}
+* {
+    color: whitesmoke;
+}
+.download {
+    background-color: whitesmoke;
+    color: #111111;
+}
+.download:hover{
+    color: whitesmoke;
+    background-color: #111111;
+}
+.demo {
+    background-color: whitesmoke;
+    color: #111111;
+}
+.demo:hover {
+    color: whitesmoke;
+    background-color: #111111;
+}
+.github{
+    background:transparent;
+}
+.github:hover{
+    background-color: whitesmoke;
+    color: #111111;
+}

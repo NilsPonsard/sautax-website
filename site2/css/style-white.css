@@ -1,0 +1,29 @@
+body{
+    background-color: whitesmoke;
+}
+#content {
+    color: #111111;
+    background-color: whitesmoke ;
+}
+.bouton {
+    color: #111111;
+}
+* {
+    color: #111111;
+}
+.download:hover {
+    background-color: whitesmoke;
+    color: #111111;
+}
+.download{
+    color: whitesmoke;
+    background-color: #111111;
+}
+.demo:hover {
+    background-color: whitesmoke;
+    color: #111111;
+}
+.demo {
+    color: whitesmoke;
+    background-color: #111111;
+}
