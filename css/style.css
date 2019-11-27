@@ -140,15 +140,14 @@ h2 {
     .nav-mobile {
         display: block;
     }
-    .demo {
+    .demo,.download {
         display: none;
     }
-    .github .download {
-        width: 100%;
-        text-align: center;
+    .github{
+        width: auto;
+        text-align: left;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
-    .p-projet{
-       /* flex-flow: column;*/
-    }
 }
