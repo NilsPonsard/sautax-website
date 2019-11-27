@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     transition: 1s;
@@ -113,4 +114,29 @@ h2 {
 .p-nom{
     flex: 2;
     margin: 0;
+}
+
+.dropdown {
+    display: none;
+    list-style: none;
+
+}
+.nav-mobile{
+    display: none;
+    background: #222222;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.nav-mobile:hover .dropdown{
+    display: block;
+}
+@media only screen and (max-width: 700px) {
+    .nav-pc {
+      display: none ;
+    }
+    .nav-mobile {
+        display: block;
+    }
 }
