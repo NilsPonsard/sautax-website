@@ -133,10 +133,22 @@ h2 {
     display: block;
 }
 @media only screen and (max-width: 700px) {
+/* affichage mobile*/
     .nav-pc {
       display: none ;
     }
     .nav-mobile {
         display: block;
+    }
+    .demo {
+        display: none;
+    }
+    .github .download {
+        width: 100%;
+        text-align: center;
+    }
+
+    .p-projet{
+       /* flex-flow: column;*/
     }
 }
