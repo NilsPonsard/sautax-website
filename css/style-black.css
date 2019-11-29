@@ -1,36 +1,36 @@
 body{
-    background-color: #111111;
+    background-color: #222222;
 }
 #content {
-    color: white;
-    background-color: #111111 ;
+    color: #dddddd;
+    background-color: #333333 ;
 }
 .bouton {
-    color: whitesmoke;
+    color: #dddddd;
 }
 * {
-    color: whitesmoke;
+    color: #dddddd;
 }
 .download {
-    background-color: whitesmoke;
-    color: #111111;
+    background-color: #dddddd;
+    color: #222222;
 }
 .download:hover{
-    color: whitesmoke;
-    background-color: #111111;
+    color: #dddddd;
+    background-color: #222222;
 }
 .demo {
-    background-color: whitesmoke;
-    color: #111111;
+    background-color: #dddddd;
+    color: #222222;
 }
 .demo:hover {
-    color: whitesmoke;
-    background-color: #111111;
+    color: #dddddd;
+    background-color: #222222;
 }
 .github{
     background:transparent;
 }
 .github:hover{
-    background-color: whitesmoke;
-    color: #111111;
+    background-color: #dddddd;
+    color: #222222;
 }
