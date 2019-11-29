@@ -1,10 +1,30 @@
 let theme_link = document.getElementById("style-theme");
 
 let currentTheme = "white"
+let cookie = document.cookie
 
+// from w3schools
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+function setCookie(cname, cvalue) {
+
+    document.cookie = cname + "=" + cvalue + ";";
+}
 
 function toogleTheme() {
-    console.log(theme_link.href)
     if (currentTheme === "black") {
         theme_link.href = "css/style-white.css"
         currentTheme = "white"
@@ -12,4 +32,27 @@ function toogleTheme() {
         theme_link.href = "css/style-black.css"
         currentTheme = "black"
     }
+    setCookie("theme", currentTheme)
 }
+function setTheme(name) {
+    if (name === "black") {
+        theme_link.href = "css/style-black.css"
+        currentTheme = "black"
+    } else {
+        theme_link.href = "css/style-white.css"
+        currentTheme = "white"
+    }
+
+    setCookie("theme", currentTheme)
+}
+function init() {
+    let c = getCookie("theme")
+    console.log(c)
+    if (c === "") {
+        setTheme("white")
+    } else {
+        setTheme(c)
+    }
+}
+
+init();
