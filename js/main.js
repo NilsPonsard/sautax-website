@@ -47,7 +47,6 @@ function setTheme(name) {
 }
 function init() {
     let c = getCookie("theme")
-    console.log(c)
     if (c === "") {
         setTheme("white")
     } else {
@@ -68,7 +67,6 @@ init();
 let dropdown
 function loaded() {
     dropdown = document.getElementById("nav-dropdown")
-    console.log(document.body.style.transitionDuration)
     document.body.style.transitionDuration = "1s"
     document.getElementById("img-acceuil").style.transitionDuration = "1s"
 }

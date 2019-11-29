@@ -1,9 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     box-sizing: border-box;
 }
 body {
     font-family: 'Arial', sans-serif;
-
+}
+a{
+    color: black;
 }
 .form-input{
     width: 100%;
@@ -41,8 +47,6 @@ form {
     padding: 0;
     overflow: hidden;
     background-color: #333333;
-    position: fixed;
-    top: 0;
     width: 100%;
     z-index: 3;
 }
@@ -97,7 +101,8 @@ form {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7vh;
+
+    min-height: 80vh;
     
 }
 h1 {
@@ -175,8 +180,23 @@ h2 {
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
+/*
 .nav-mobile:hover .dropdown{
     display: block;
+}*/
+.back-top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+footer{
+    width: 100%;
+}
+footer p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 @media only screen and (max-width: 700px) {
 /* affichage mobile*/
