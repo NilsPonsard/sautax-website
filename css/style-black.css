@@ -44,6 +44,11 @@ body{
     color: #222222;
 }
 
+
+.back-top{
+    border: 2px solid #222222;
+}
+
 .back-top:hover{
     border: 2px solid #ccc;
 }
