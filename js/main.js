@@ -54,5 +54,18 @@ function init() {
         setTheme(c)
     }
 }
+function toogleExpand() {
+    if (dropdown.style.display === "block") {
+        dropdown.style.display = "none"
+    } else {
+        dropdown.style.display = "block"
+    }
+
+}
+
 
 init();
+let dropdown
+function loaded() {
+    dropdown = document.getElementById("nav-dropdown")
+}

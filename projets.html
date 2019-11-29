@@ -12,11 +12,11 @@
 
 </head>
 
-<body>
-    <header>
+<body onload="loaded()">
+    <nav>
         <div class="nav-mobile">
-            MENU
-            <div class="dropdown">
+            <span onclick="toogleExpand()"> MENU</span>
+            <div id="nav-dropdown" class="dropdown">
                 <a href="index.html" class="ah"><img class="img-acceuil" width="40" height="40" src="logo.png"></a>
                 <a class="nav-lien active" href="#">Projets</a>
                 <a class="nav-lien" href="#contact">Contact</a>
@@ -40,13 +40,14 @@
 
             </ul>
         </div>
-    </header>
+    </nav>
 
     <div id="contenu">
         <div>
 
             <h1>Projets</h1>
-            <p>Voici les projets sur lesquels j'ai travaillé. (clickez sur le texte pour accèder à la page GitHub)</p>
+            <p>Voici les projets sur lesquels j'ai travaillé. (clickez sur le texte pour accèder à la page GitHub)
+            </p>
             <h2>JavaScript / TypeScript</h2>
             <div>
                 <div class="p-projet">
@@ -65,7 +66,8 @@
                 <div class="p-projet">
 
                     <p class="p-nom">
-                        <a class="gauche bouton github" href="https://github.com/sautax/game-of-life-typescript">Le jeu
+                        <a class="gauche bouton github" href="https://github.com/sautax/game-of-life-typescript">Le
+                            jeu
                             de
                             la vie</a>
                     </p>

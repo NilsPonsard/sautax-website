@@ -136,7 +136,7 @@ h2 {
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
-.nav-mobile:active .dropdown{
+.nav-mobile:hover .dropdown{
     display: block;
 }
 @media only screen and (max-width: 700px) {

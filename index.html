@@ -11,11 +11,11 @@
     <script src="js/main.js"></script>
 </head>
 
-<body>
-    <header>
+<body onload="loaded()">
+    <nav>
         <div class="nav-mobile">
-            MENU
-            <div class="dropdown">
+            <span onclick="toogleExpand()"> MENU</span>
+            <div id="nav-dropdown" class="dropdown">
                 <a href="#" class="ah"><img class="img-acceuil" width="40" height="40" src="logo.png"></a>
                 <a class="nav-lien " href="projets.html">Projets</a>
                 <a class="nav-lien" href="#contact">Contact</a>
@@ -39,7 +39,7 @@
 
             </ul>
         </div>
-    </header>
+    </nav>
 
     <div id="contenu">
         <h1>Bonsoir</h1>
