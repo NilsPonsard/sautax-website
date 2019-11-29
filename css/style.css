@@ -27,6 +27,7 @@ body {
 .form-button{
     margin-top: 2vh;
     margin-bottom: 2vh;
+    transition: 1s;
 }
 form {
     border: 2px solid #ccc;
@@ -131,6 +132,9 @@ h1 {
 .github:hover {
     color: whitesmoke;
     background-color: #000;
+}
+.bouton{
+    border-radius: 2px;
 }
 .p-projet {
     display: flex;
