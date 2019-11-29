@@ -68,4 +68,6 @@ init();
 let dropdown
 function loaded() {
     dropdown = document.getElementById("nav-dropdown")
+    console.log(document.body.style.transitionDuration)
+    document.body.style.transitionDuration = "1s"
 }
