@@ -34,3 +34,8 @@ body{
     background-color: #dddddd;
     color: #222222;
 }
+.form-input,.form-textarea {
+    color: #dddddd;
+    background-color: #222222;
+    border: 2px solid #ccc;
+}
