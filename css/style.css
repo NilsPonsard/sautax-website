@@ -146,6 +146,7 @@ h2 {
     }
     .nav-mobile {
         display: block;
+        color: whitesmoke;
     }
     .demo,.download {
         display: none;
