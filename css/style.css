@@ -77,6 +77,17 @@ form {
     filter: grayscale(0%);
     transform: rotate(180deg);
 }
+.lama{
+    filter: grayscale(100%);
+    transition: 1s;
+    max-width:200px ;
+    float: left;
+    border-radius: 50%;
+}
+.lama:hover {
+    filter: grayscale(0%);
+    transform: rotate(180deg);
+}
 
 .nav-lien {
     display: block;
@@ -205,6 +216,23 @@ footer p {
     margin-right: auto;
     text-align: center;
 }
+.anim-red{
+    display:inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    animation: red-anim 2s infinite;
+}
+@keyframes red-anim{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: transparent;
+    }
+    100%{background-color: red;}
+}
+
 @media only screen and (max-width: 700px) {
 /* affichage mobile*/
     .nav-pc {
