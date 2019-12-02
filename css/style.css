@@ -187,8 +187,11 @@ h2 {
 .back-top{
     position: fixed;
     right: 0;
-    transition: 1s;
+    transition:  1s;
     bottom: 0;
+    margin: 0;
+    border: 2px solid rgba(0, 0, 0, 0);
+
 }
 .back-top:hover{
     border-radius: 4px;

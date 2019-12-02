@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <meta name="author" content="Nils Ponsard">
+    <meta name="description" content="Envoyez-moi un message">
+    <link rel="icon" href="img/logo.png ">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link id="style-theme" rel="stylesheet" href="css/style-black.css">
@@ -12,9 +15,11 @@
 </head>
 
 <body onload="loaded()">
-    <nav>
+    <nav id="top">
         <div onclick="toogleExpand()" class="nav-mobile">
-            MENU
+            MENU.back-top{
+            border: 2px solid whitesmoke;
+            }
             <div id="nav-dropdown" class="dropdown">
                 <a href="#" class="nav-lien">Acceuil</a>
                 <a class="nav-lien " href="projets.html">Projets</a>
