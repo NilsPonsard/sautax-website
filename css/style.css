@@ -72,10 +72,12 @@ form {
     filter: grayscale(100%);
     transition: 0s;
     border-radius: 50%;
+    transform: rotate(90deg);
+
 }
 .img-acceuil:hover {
     filter: grayscale(0%);
-    transform: rotate(180deg);
+    transform: rotate(0deg);
 }
 .lama{
     filter: grayscale(100%);
@@ -141,6 +143,10 @@ h1 {
     transition: 0.5s;
 }
 .demo {
+    transition: 0.5s;
+}
+.projets{
+    text-align: center;
     transition: 0.5s;
 }
 
@@ -237,6 +243,18 @@ footer p {
 /* affichage mobile*/
     .nav-pc {
       display: none ;
+    }
+    .lama{
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    section{
+        display: flex;
+        flex-flow: column;
+    }
+    section p {
+        width: 100%;
     }
     .nav-mobile {
         display: block;

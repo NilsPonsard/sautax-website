@@ -19,6 +19,15 @@ body{
     color: whitesmoke;
     background-color: #111111;
 }
+.projets:hover {
+    background-color: whitesmoke;
+    color: #111111;
+}
+.projets {
+    color: whitesmoke;
+    background-color: #111111;
+
+}
 .demo:hover {
     background-color: whitesmoke;
     color: #111111;

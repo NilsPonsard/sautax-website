@@ -11,6 +11,9 @@ body{
 * {
     color: #dddddd;
 }
+a {
+    color: #dddddd;
+}
 .download {
     background-color: #dddddd;
     color: #222222;
@@ -26,6 +29,15 @@ body{
 .demo:hover {
     color: #dddddd;
     background-color: #222222;
+}
+.projets{
+    background-color:#dddddd;
+    color: #222222;
+
+}
+.projets:hover{
+    background-color: #222222;
+    color: #dddddd;
 }
 .github{
     background:transparent;
