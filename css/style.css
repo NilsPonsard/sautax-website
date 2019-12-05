@@ -194,8 +194,17 @@ h2 {
     background: #333333;
     color: whitesmoke;
     text-align: center;
-    padding-top: 2vh;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+}
+.nav-mobile p {
+    color: whitesmoke;
+    margin: 0;
+    padding-top: 2vh ;
     padding-bottom: 2vh;
+}
+.nav-mobile .nav-lien{
+    margin: 0;
 }
 /*
 .nav-mobile:hover .dropdown{
@@ -243,6 +252,9 @@ footer p {
 /* affichage mobile*/
     .nav-pc {
       display: none ;
+    }
+    .bouton{
+        margin: 0;
     }
     .lama{
         margin-right: auto;
