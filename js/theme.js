@@ -16,7 +16,17 @@ function setTheme(name) {
 function init() {
     let c = localStorage.getItem("theme")
     if (c) currentTheme = c
-    else currentTheme = "white"
+    else {
+        currentTheme = "white"
+        if (window.matchMedia('(prefers-color-scheme)').media !== 'not all') {
+            if (window.matchMedia('(prefers-color-scheme: dark)').media !== 'not all') {
+                currentTheme = "black"
+            }
+        }
+
+
+
+    }
     setTheme(currentTheme)
 }
 init();

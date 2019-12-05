@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" media="only screen and (max-width: 700px)" href="css/mobile.css">
     <link rel="stylesheet" href="css/normalize.css">
-
+    <noscript>
+        <link rel="stylesheet" href="css/noscript.css">
+    </noscript>
 </head>
 
 <body onload="loaded()">
@@ -32,7 +34,9 @@
                 <a class="nav-lien" href="https://github.com/sautax">GitHub-personnel</a>
                 <a class="nav-lien" onclick="toogleTheme()" href="#">toogle theme</a>
 
-            </div>
+            </div><noscript>
+                <link rel="stylesheet" href="css/noscript.css">
+            </noscript>
 
         </div>
         <div class="nav-pc">
@@ -42,11 +46,10 @@
                             src="img/logo.webp" alt="Acceuil" title="Accéder à l'Acceuil"></a></li>
                 <li class="gauche"><a class="nav-lien" href="projets.html">Projets</a></li>
                 <li class="gauche"><a class="nav-lien" href="contact.html">Contact</a></li>
-                <li class="droite"><a class="nav-lien" href="https://github.com/NilsPonsard"
-                        target="_blank">GitHub-pro</a></li>
-                <li class="droite"><a class="nav-lien" href="https://github.com/sautax"
-                        target="_blank">GitHub-personnel</a></li>
-                <li class="droite"><a class="nav-lien" onclick="toogleTheme()" href="#">toogle theme</a></li>
+                <li<noscript>
+                    <link rel="stylesheet" href="css/noscript.css">
+                    </noscript> target="_blank">GitHub-personnel</a></li>
+                    <li class="droite"><a class="nav-lien" onclick="toogleTheme()" href="#">toogle theme</a></li>
 
             </ul>
         </div>
