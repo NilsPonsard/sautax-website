@@ -1,7 +1,5 @@
 .dropdown {
     display: none;
-    list-style: none;
-
 }
 .nav-mobile{
     display: none;
@@ -23,35 +21,35 @@
 .nav-pc {
     display: none ;
   }
-  .bouton{
+.bouton{
       margin: 0;
-  }
-  .lama{
+      width: 100%;
+}
+.lama{
       margin-right: auto;
       margin-left: auto;
       
   }
-  section{
+section{
       display: flex;
       flex-flow: column;
   }
-  section p {
+section p {
       width: 100%;
   }
-  .nav-mobile {
+.nav-mobile {
       display: block;
       color: whitesmoke;
   }
-  .demo,.download {
+.pc {
       display: none;
   }
-  .github{
-      width: auto;
-      text-align: left;
-      margin-right: 15px;
-      margin-left: 15px;
-      margin: 0;
-  }
-  h2 {
+.p-projet{
+    flex-flow: column;
+}
+h2 {
       margin-bottom: 15px;
-  }
+}
+.part{
+    flex-flow: column;
+}

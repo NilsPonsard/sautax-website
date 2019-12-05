@@ -3,6 +3,7 @@
 }
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0;
 }
 .gauche {
     float: left;
@@ -30,18 +31,7 @@ h1 {
 h2 {
     margin-bottom: 0;
 }
-.back-top{
-    position: fixed;
-    right: 0;
-    transition:  1s;
-    bottom: 0;
-    margin: 0 !important;
-    border: 2px solid rgba(0, 0, 0, 0);
 
-}
-.back-top:hover{
-    border-radius: 4px;
-}
 footer{
     width: 100%;
 }
@@ -64,6 +54,12 @@ html{
 .lama:hover {
     filter: grayscale(0%);
     transform: rotate(180deg);
+}
+.projet-nom{   
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
 }
 .liste-projets {
     list-style-type:"";
@@ -89,6 +85,10 @@ html{
     height: 1em;
     border-radius: 50%;
     animation: red-anim 2s infinite;
+}
+.part{
+    display: flex;
+    flex-flow: row;
 }
 @keyframes red-anim{
     0%{

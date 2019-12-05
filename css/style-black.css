@@ -5,47 +5,22 @@ body{
     color: #dddddd;
     background-color: #333333 ;
 }
-.bouton {
-    color: #dddddd;
-}
+    
 * {
     color: #dddddd;
 }
 a {
     color: #dddddd;
 }
-.download {
+.bouton {
     background-color: #dddddd;
     color: #222222;
 }
-.download:hover{
+.bouton:hover{
     color: #dddddd;
     background-color: #222222;
 }
-.demo {
-    background-color: #dddddd;
-    color: #222222;
-}
-.demo:hover {
-    color: #dddddd;
-    background-color: #222222;
-}
-.projets{
-    background-color:#dddddd;
-    color: #222222;
 
-}
-.projets:hover{
-    background-color: #222222;
-    color: #dddddd;
-}
-.github{
-    background:transparent;
-}
-.github:hover{
-    background-color: #dddddd;
-    color: #222222;
-}
 .form-input,.form-textarea {
     color: #dddddd;
     background-color: #222222;
