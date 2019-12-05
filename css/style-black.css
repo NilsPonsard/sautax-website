@@ -9,6 +9,7 @@ body{
     color: #dddddd;
 }
 * {
+    background-color: transparent;
     color: #dddddd;
 }
 a {
