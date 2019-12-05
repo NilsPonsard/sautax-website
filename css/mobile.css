@@ -1,0 +1,57 @@
+.dropdown {
+    display: none;
+    list-style: none;
+
+}
+.nav-mobile{
+    display: none;
+    background: #333333;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+}
+.nav-mobile p {
+    color: whitesmoke;
+    margin: 0;
+    padding-top: 2vh ;
+    padding-bottom: 2vh;
+}
+.nav-mobile .nav-lien{
+    margin: 0;
+}
+.nav-pc {
+    display: none ;
+  }
+  .bouton{
+      margin: 0;
+  }
+  .lama{
+      margin-right: auto;
+      margin-left: auto;
+      
+  }
+  section{
+      display: flex;
+      flex-flow: column;
+  }
+  section p {
+      width: 100%;
+  }
+  .nav-mobile {
+      display: block;
+      color: whitesmoke;
+  }
+  .demo,.download {
+      display: none;
+  }
+  .github{
+      width: auto;
+      text-align: left;
+      margin-right: 15px;
+      margin-left: 15px;
+      margin: 0;
+  }
+  h2 {
+      margin-bottom: 15px;
+  }

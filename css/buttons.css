@@ -1,0 +1,28 @@
+.bouton{
+    text-decoration: none;    
+    padding: 1em;
+    margin: 1em;
+    border-radius: 2px;
+    margin-left: 0;
+}
+.download {
+    transition: 0.5s;
+}
+.demo {
+    transition: 0.5s;
+}
+.projets{
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.github {
+    background:transparent;
+    transition: 0.5s;
+    margin-right: 0;
+}
+.github:hover {
+    color: whitesmoke;
+    background-color: #000;
+}
