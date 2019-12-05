@@ -3,6 +3,7 @@ html{
 }
 
 *{
+    background-color: gray;
     box-sizing: border-box;
 }
 body {
