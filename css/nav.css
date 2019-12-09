@@ -7,11 +7,11 @@
     filter: grayscale(100%);
     transition: 0s;
     border-radius: 50%;
-    transform: rotate(90deg);
+    /*transform: rotate(90deg);*/
 }
 .img-acceuil:hover {
     filter: grayscale(0%);
-    transform: rotate(0deg);
+    /*transform: rotate(0deg);*/
 }
 .nav {
     list-style-type: none;

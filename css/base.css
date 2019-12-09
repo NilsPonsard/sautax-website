@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'SourceCodeProSemibold';
 }
 body {
     font-family: 'Arial', sans-serif;
@@ -44,16 +45,15 @@ footer p {
 html{
     scroll-behavior: smooth;
 }
-.lama{
+.image-presentation{
     filter: grayscale(100%);
     transition: 1s;
     max-width:200px ;
     float: left;
     border-radius: 50%;
 }
-.lama:hover {
+.image-presentation:hover {
     filter: grayscale(0%);
-    transform: rotate(180deg);
 }
 .projet-nom{   
     padding: 1em;
