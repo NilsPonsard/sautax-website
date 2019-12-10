@@ -1,9 +1,8 @@
 *{
     box-sizing: border-box;
-    font-family: 'SourceCodeProSemibold';
 }
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'DejaVuSansMonoBook' ,'', sans-serif;
     margin: 0;
 }
 .gauche {
@@ -89,6 +88,12 @@ html{
 .part{
     display: flex;
     flex-flow: row;
+}
+.contact{
+    list-style-type: none;
+}
+.contact img{
+    margin: 2px;
 }
 @keyframes red-anim{
     0%{

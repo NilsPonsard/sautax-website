@@ -19,13 +19,8 @@ function init() {
     else {
         currentTheme = "white"
         if (window.matchMedia('(prefers-color-scheme)').media !== 'not all') {
-            if (window.matchMedia('(prefers-color-scheme: dark)').media !== 'not all') {
-                currentTheme = "black"
-            }
+            if (window.matchMedia('(prefers-color-scheme: dark)').media !== 'not all') currentTheme = "black"
         }
-
-
-
     }
     setTheme(currentTheme)
 }
