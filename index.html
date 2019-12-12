@@ -6,7 +6,7 @@
     <title>Acceuil</title>
     <meta name="author" content="Nils Ponsard">
     <meta name="description" content="Bienvenue sur le site web de Nils Ponsard">
-    <link rel="icon" href="img/logo.webp">
+    <link rel="icon" href="img/logo-couleur.webp">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
@@ -18,8 +18,9 @@
     <noscript>
         <link rel="stylesheet" href="css/noscript.css">
     </noscript>
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/source-code-pro" type="text/css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dejavu-sans-mono" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
 </head>
 
 <body onload="loaded()">
@@ -45,7 +46,7 @@
 
             <ul class="nav">
                 <li class="gauche"> <a href="#" class="ah"><img id="img-acceuil" class="img-acceuil" width="40"
-                            height="40" src="img/logo.webp" alt="Acceuil" title="Accéder à l'Acceuil"></a></li>
+                            height="40" src="img/logo-couleur.webp" alt="Acceuil" title="Accéder à l'Acceuil"></a></li>
                 <li class="gauche"><a class="nav-lien" href="projets.html">Projets</a></li>
                 <li class="gauche"><a class="nav-lien" href="contact.html">Contact</a></li>
                 <li class="droite"><a class="nav-lien" href="https://github.com/NilsPonsard"
@@ -66,10 +67,12 @@
         <section>
             <h2>À propos de moi</h2>
             <article class="part">
-                <img class="image-presentation" alt="logo" src="img/logo.webp">
+                <img class="image-presentation" alt="logo" src="img/logo-couleur.webp">
                 <p>
                     Bonjour, je m'appelle Nils Ponsard, <br />
-                    Je suis actuellement étudiant à l'IUT d'Aix en Provence, département informatique
+                    Je suis actuellement étudiant à l'IUT d'Aix en Provence, département informatique. <br />
+                    J'ai commencé à programmer en C à l'âge de 12 ans, ensuite j'ai appris le python, JavaScript, C#,
+                    C++, Java et Rust en autodidacte.
                 </p>
             </article>
 
@@ -93,9 +96,12 @@
                 <li><img src="img/Phone.svg" width="20" height="20">maybe</li>
                 <li><img src="img/Paperplane.svg" width="20" height="20"><a
                         href="mailto:nilsponsard@gmail.com">nilsponsard@gmail.com</a></li>
-                <li><img src="img/Discord-Logo-Black.svg" width="20" height="20">sautax#9170</li>
+                <li><img class="light" src="img/Discord-Logo-Black.svg" width="20" height="20"><img class="dark"
+                        src="img/Discord-Logo-White.svg" width="20" height="20">sautax#9170</li>
 
             </ul>
+            <a href="contact.html" class="bouton droite">Formulaire de contact</a>
+
         </section>
         <p>
             <a href="https://iconscout.com/icon/paperplane-6" target="_blank">Paperplane Icon</a> by <a

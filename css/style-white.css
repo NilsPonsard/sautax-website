@@ -1,3 +1,7 @@
+:root{
+    --accent:#78D9FB;
+
+}
 body{
     background-color: whitesmoke;
 }
@@ -18,7 +22,7 @@ a{
     background-color: #111111;
 }
 .bouton:hover {
-    background-color: whitesmoke;
+    background-color: var(--accent);
     color: #111111;
 }
 
@@ -36,4 +40,10 @@ a{
 }
 .back-top:hover{
     border: 2px solid #111111;
+}
+.dark {
+    display: none;
+}
+.light{
+    display: inline;
 }
