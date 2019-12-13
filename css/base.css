@@ -7,6 +7,7 @@
 *{
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Source Code Pro', monospace;
     margin: 0;
@@ -16,6 +17,9 @@ body {
 }
 .droite {
     float:right;
+}
+.long{
+    text-indent: 2em;
 }
 a{
     color:black;
