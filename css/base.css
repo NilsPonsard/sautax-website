@@ -78,13 +78,6 @@ html{
     flex: 2;
     margin: 0;
 }
-.anim-red{
-    display:inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    animation: red-anim 2s infinite;
-}
 .part{
     display: flex;
     flex-flow: row;
@@ -97,13 +90,4 @@ html{
 }
 .svg-color{
     fill: white;
-}
-@keyframes red-anim{
-    0%{
-        background-color: red;
-    }
-    50%{
-        background-color: transparent;
-    }
-    100%{background-color: red;}
 }

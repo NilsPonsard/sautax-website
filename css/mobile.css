@@ -53,3 +53,8 @@ h2 {
 .part{
     flex-flow: column;
 }
+.image-presentation{
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+}
