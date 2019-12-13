@@ -1,45 +1,42 @@
-:root{
-    --accent:#6FD6FF;
 
-}
 body{
-    background-color: whitesmoke;
+    background-color: var(--light);
 }
 #content {
-    color: #111111;
-    background-color: whitesmoke ;
+    color: var(--dark);
+    background-color: var(--light) ;
 }
 
 * {
    
-    color: #111111;
+    color: var(--dark);
 }
 a{
-    color: #111111;
+    color: var(--dark);
 }
 .bouton{
-    color: whitesmoke;
-    background-color: #111111;
+    color: var(--light);
+    background-color: var(--dark);
 }
 .bouton:hover {
     background-color: var(--accent);
-    color: #111111;
+    color: var(--dark);
 }
 
 .form-input,.form-textarea {
-    color: #111111;
-    background-color: whitesmoke;
+    color: var(--dark);
+    background-color: var(--light);
     border: 2px solid #aaa;
 }
 .form-button:hover  {
-    color: #111111;
+    color: var(--dark);
     background-color: #aaa;
 }
 .back-top{
     background-color: #aaa;
 }
 .back-top:hover{
-    border: 2px solid #111111;
+    border: 2px solid var(--dark);
 }
 .dark {
     display: none;
