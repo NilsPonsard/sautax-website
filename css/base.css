@@ -86,10 +86,7 @@ strong {
     flex: 2;
     margin: 0;
 }
-.part{
-    display: flex;
-    flex-flow: row;
-}
+
 .contact{
     list-style-type: none;
 }
