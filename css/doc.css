@@ -1,0 +1,10 @@
+code {
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(150, 150, 150, 0.4);
+    border-radius: 3px;
+}
+li p {
+    line-height: 1.5;
+}

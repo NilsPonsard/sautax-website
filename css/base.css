@@ -24,6 +24,7 @@ body {
 a{
     color:black;
 }
+
 #contenu {
     transition: 1s;
     padding: 10px;
@@ -33,7 +34,7 @@ a{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 89vh;
+    min-height: 85vh;
 }
 h1 {
     text-align: center;
@@ -54,15 +55,21 @@ footer p {
 html{
     scroll-behavior: smooth;
 }
-.image-presentation{
+.reseau-img{
+    width: 20px;
+    height: 20px;
+}
+.greyed{
     filter: grayscale(100%);
     transition: 1s;
+}
+.greyed:hover{
+    filter: grayscale(0%);
+}
+.image-presentation{
     max-width:200px ;
     float: left;
     border-radius: 50%;
-}
-.image-presentation:hover {
-    filter: grayscale(0%);
 }
 .projet-nom{   
     padding: 1em;
