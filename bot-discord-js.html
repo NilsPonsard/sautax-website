@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Acceuil</title>
+    <meta name="author" content="Nils Ponsard">
+    <meta name="description" content="Bienvenue sur le site web de Nils Ponsard">
+    <link rel="icon" href="img/logo-couleur.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link id="style-theme" rel="stylesheet" href="css/style-black.css">
+    <script src="js/theme.js"></script>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" media="only screen and (max-width: 700px)" href="css/mobile.css">
+    <noscript>
+        <link rel="stylesheet" href="css/noscript.css">
+    </noscript>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="loaded()">
+    <nav id="top">
+        <div onclick="toogleExpand()" class="nav-mobile">
+            <p>
+                MENU
+            </p>
+            <div id="nav-dropdown" class="dropdown">
+                <a href="index.html" class="nav-lien ">Acceuil</a>
+                <a class="nav-lien active" href="projets.html">Projets</a>
+                <a class="nav-lien" href="contact.html">Contact</a>
+                <a class="nav-lien" href="https://github.com/NilsPonsard">GitHub-pro</a>
+                <a class="nav-lien" href="https://github.com/sautax">GitHub-personnel</a>
+                <a class="nav-lien" onclick="toogleTheme()" href="#">Theme</a>
+
+            </div><noscript>
+                <link rel="stylesheet" href="css/noscript.css">
+            </noscript>
+
+        </div>
+        <div class="nav-pc">
+
+            <ul class="nav">
+                <li class="gauche"> <a href="index.html" class="ah"><img id="img-acceuil" class="img-acceuil" width="40"
+                            height="40" src="img/logo-couleur.png" alt="Acceuil" title="Accéder à l'Acceuil"></a></li>
+                <li class="gauche"><a class="nav-lien active" href="projets.html">Projets</a></li>
+                <li class="gauche"><a class="nav-lien" href="contact.html">Contact</a></li>
+                <li class="droite"><a class="nav-lien" href="https://github.com/NilsPonsard"
+                        target="_blank">GitHub-pro</a></li>
+                <li class="droite"><a class="nav-lien" href="https://github.com/sautax"
+                        target="_blank">GitHub-personnel</a></li>
+                <li class="droite"><a class="nav-lien" onclick="toogleTheme()" href="#">Theme</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div id="contenu">
+
+
+    </div>
+    <footer>
+        <p>Conçu par Nils Ponsard</p>
+    </footer>
+    <script src="js/nav.js"></script>
+
+</body>
+<!--
+    Made by
+ ____              _             
+/ ___|  __ _ _   _| |_ __ ___  __
+\___ \ / _` | | | | __/ _` \ \/ /
+ ___) | (_| | |_| | || (_| |>  < 
+|____/ \__,_|\__,_|\__\__,_/_/\_\
+-->
+
+</html>
