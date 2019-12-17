@@ -4,7 +4,11 @@ code {
     font-size: 85%;
     background-color: rgba(150, 150, 150, 0.4);
     border-radius: 3px;
+    font-family: 'Source Code Pro', monospace;
 }
 li p {
     line-height: 1.5;
+}
+.subsection {
+    margin-left: 5%;
 }

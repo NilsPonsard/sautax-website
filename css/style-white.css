@@ -1,42 +1,42 @@
 
 body{
-    background-color: var(--light);
+    background-color: #eeeeee;
 }
 #content {
-    color: var(--dark);
-    background-color: var(--light) ;
+    color: #222222;
+    background-color: #eeeeee ;
 }
 
 * {
    
-    color: var(--dark);
+    color: #222222;
 }
 a{
-    color: var(--dark);
+    color: #222222;
 }
 .bouton{
-    color: var(--light);
-    background-color: var(--dark);
+    color: #eeeeee;
+    background-color: #222222;
 }
 .bouton:hover {
-    background-color: var(--accent);
-    color: var(--dark);
+    background-color: #6FD6FF;
+    color: #222222;
 }
 
 .form-input,.form-textarea {
-    color: var(--dark);
-    background-color: var(--light);
+    color: #222222;
+    background-color: #eeeeee;
     border: 2px solid #aaa;
 }
 .form-button:hover  {
-    color: var(--dark);
+    color: #222222;
     background-color: #aaa;
 }
 .back-top{
     background-color: #aaa;
 }
 .back-top:hover{
-    border: 2px solid var(--dark);
+    border: 2px solid #222222;
 }
 .dark {
     display: none;

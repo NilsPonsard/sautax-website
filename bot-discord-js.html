@@ -67,10 +67,13 @@
         <h1>Bot discord</h1>
         <p>
             Préfixe : <code>$</code>
+
         </p>
+
 
         <article id="commandes">
             <h2>Commandes</h2>
+            <p>example de commande : <code>$image mandelbrot 100 0.8 0.2 0.4</code></p>
             <section>
                 <h3>Commandes de génération d'image </h3>
                 <code>$image</code>
@@ -79,6 +82,40 @@
                         <p>
                             <code>mandelbrot &lt;qualité : unsigned> &lt;rouge : float 1.0-0.0> &lt;vert : float 1.0-0.0> &lt;bleu : float 1.0-0.0></code>
                             <br />gérère une fractale de mandelbrot
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>Commandes pour League of Legends </h3>
+                <code>$lol</code>
+                <div class="subsection">
+                    <h4>Items</h4>
+                    <code>item</code>
+                    <ul>
+                        <li>
+                            <p>
+                                <code>search &lt;nom : string></code>
+                                <br /> Donne tous les items correspondant au nom donné
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <code>stat &lt;nom : string></code>
+                                <br /> Affiche les stats de l'item correspondant au nom
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <section>
+                <h3>utilitaires</h3>
+                <ul>
+                    <li>
+                        <p>
+                            <code>$say &lt;message></code>
+                            <br />Fait dire au bot le message
                         </p>
                     </li>
                 </ul>
