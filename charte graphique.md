@@ -9,3 +9,7 @@ d'autres couleurs sont utilisés pour la mise en valeur ( et pour le logo ) : 
 - bleu clair : #6FD6FF
 - rouge «Persimmon» : #FF5757
 
+la couleur sombre est #222222
+la couleur claire est #EEEEEE
+
+#bff0cf
